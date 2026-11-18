@@ -9,4 +9,7 @@ A prompt-engineered AI sales assistant for a fictional credit organization, writ
 
 **Highlights:** structured testing, failures found and fixed, guardrails against promises, invented figures, and sensitive data.
 
+## Contact
+Okiemute Isaac Okoro | Https://www.LinkedIn.com/in/Okiemute-okoro | isaacplusokoro@gmail.com
+
 [Read the case study](./prompt-engineering-credit-assistant/README.md)
