@@ -19,4 +19,4 @@ Learning projects only. The company is fictional, contact details are placeholde
 ## Contact
 Okiemute Isaac Okoro | Https://www.LinkedIn.com/in/Okiemute-okoro | isaacplusokoro@gmail.com
 
-[Read the case study](./prompt-engineering-credit-assistant/README.md)
+[Read the case study](./prompt-engineering-case-study.md)
