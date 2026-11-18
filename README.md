@@ -9,6 +9,10 @@ A prompt-engineered AI sales assistant for a fictional credit organization, writ
 
 **Highlights:** structured testing, failures found and fixed, guardrails against promises, invented figures, and sensitive data.
 
+
+## Tools Used
+TS Academy Handbook, Claud
+
 ## About
 Learning projects only. The company is fictional, contact details are placeholders, and no real client data was used.
 
