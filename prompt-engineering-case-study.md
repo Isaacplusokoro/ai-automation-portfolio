@@ -159,3 +159,4 @@ Each test ran in a **fresh chat** with the full prompt followed by one client me
 - [ ] Final prompt in the chat tool
 - [ ] One screenshot per test reply (crop or replace real contact details)
 - [ ] The scoreboard of all six tests
+
