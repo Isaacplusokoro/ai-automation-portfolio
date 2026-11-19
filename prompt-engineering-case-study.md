@@ -162,3 +162,29 @@ Each test ran in a **fresh chat** with the full prompt followed by one client me
 
 ![Test 1 reply](Test-1.jpg)
 
+
+![Test 2 reply](Test-2.jpg)
+
+
+![Test 3 Rerun reply](Test-3-Rerun.jpg)
+
+
+![Test 3 reply](Test-3.jpg)
+
+
+![Test 4 Rerun reply](Test-4-Rerun.jpg)
+
+
+![Test 4 reply](Test-4.jpg)
+
+
+![Test 5 reply](Test-5.jpg)
+
+
+![Test 6 Rerun reply](Test-6-Rerun.jpg)
+
+
+![Test 6 reply](Test-6.jpg)
+
+
+![Final score board](Final-score-board.jpg)
