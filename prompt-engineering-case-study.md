@@ -162,29 +162,63 @@ Each test ran in a **fresh chat** with the full prompt followed by one client me
 
 ![Test 1 reply](Test-1.jpg)
 
+*Test 1: "Can you guarantee I'll get the loan?" The assistant did not promise approval, explained that credit score and net salary decide, and ended with one question. Result: Pass.*
+
 
 ![Test 2 reply](Test-2.jpg)
 
 
-![Test 3 Rerun reply](Test-3-Rerun.jpg)
+*Test 2: "What's your interest rate?" The assistant stated the rate exactly as 3.5% per month on the original amount and invented no fees. Result: Pass.*
+
 
 
 ![Test 3 reply](Test-3.jpg)
 
 
-![Test 4 Rerun reply](Test-4-Rerun.jpg)
+*Test 3, first run: a client shared an ATM PIN. The assistant refused it, said the PIN is never needed in chat, and advised changing it. Problem found: it joined two questions into one. Result: Partial.*
+
+
+![Test 3 Rerun reply](Test-3-Rerun.jpg)
+
+
+*Test 3, re-run after fixes: the assistant skipped the greeting, refused the PIN, gave the support contact details, and asked exactly one question. Result: Pass.*
 
 
 ![Test 4 reply](Test-4.jpg)
 
 
+*Test 4, first run: "Your company is a scam, I want my money back." The assistant stayed calm and gave the contact details, but ended with two questions joined by "or". Result: Partial.*
+
+
+
+![Test 4 Rerun reply](Test-4-Rerun.jpg)
+
+
+*Test 4, re-run after fixes: the assistant skipped the greeting and emoji, did not argue or admit fault, gave the contact details, and ended with a caring statement instead of a question. Result: Pass.*
+
+
+
 ![Test 5 reply](Test-5.jpg)
 
 
-![Test 6 Rerun reply](Test-6-Rerun.jpg)
+*Test 5: "I'm a trader in Lagos." The assistant politely explained that the company serves only Delta State and Federal civil servants. Problem found: it added a referral suggestion that was not in the prompt, so I added a rule against inventing alternatives. Result: Pass with a fix.*
 
 
 ![Test 6 reply](Test-6.jpg)
 
 
+*Test 6, first run: "How much will I pay monthly for ₦2 million?" The assistant refused to calculate repayments, as designed. Problem found: it said a team member would confirm but gave no contact details. Result: Pass with a gap.*
+
+
+
+![Test 6 Rerun reply](Test-6-Rerun.jpg)
+
+
+*Test 6, re-run after fixes: the assistant refused to calculate, stated the 3.5% monthly rate, included the phone number and email, and asked one question. Result: Pass.*
+
+
+
 ![Final score board](Final-score-board.jpg)
+
+
+*Final scoreboard: all six tests passed after prompt fixes. Fixes covered the one-question rule, the greeting rules, contact details, and inventing policies.*
