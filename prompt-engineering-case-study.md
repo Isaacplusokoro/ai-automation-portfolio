@@ -160,5 +160,5 @@ Each test ran in a **fresh chat** with the full prompt followed by one client me
 - [ ] One screenshot per test reply (crop or replace real contact details)
 - [ ] The scoreboard of all six tests
 
-Test-1.jpg
+![Test 1 reply](%est-1.jpg)
 
